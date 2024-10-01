@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Editor de configuración
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+
+# Archivos de entorno
+*.env
+*.env.local
+
+# Archivos de configuración de Docker
+docker-compose.override.yml
+Dockerfile
+*.log
+
+# Archivos de prueba
+*.cover
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Archivos temporales
+*.tmp
+*.temp
